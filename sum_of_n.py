@@ -1,11 +1,8 @@
-#aim:to find sum of n numbers
-#author:aakash
-#date: 4/11/22
-
-
-
-
-
-n=int(input("enter no."))
-sum=(n*(n+1))/2
+n=int(input())
+sum=0
+for i in range (1,n+1):
+    sum=sum+i
 print(sum)
+    
+    
+    
